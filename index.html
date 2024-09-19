@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プロフィールページ</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #440000; /* 更新された背景色 */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+            color: #cc0000; /* 更新された文字色 */
+        }
+
+        h1, h2 {
+            color: #35424a;
+        }
+
+        .about, .skills {
+            background: #ffffff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #440000; /* 更新された背景色 */
+            color: #ffffff;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>私のお菓子作り</h1>
+    </header>
+    <main>
+        <section class="about">
+            <h2>最近作ったお菓子</h2>
+            <p>カップケーキ</p>
+        </section>
+        <section class="skills">
+            <h2>作りたいお菓子</h2>
+            <p>チョコレートブラウニー</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 私の名前</p>
+    </footer>
+</body>
+</html>
